@@ -1,0 +1,33 @@
+Containers
+Use:
+	docker container [one_command]
+
+		command:
+		create — Cria um container apartir de uma imagem.
+		start — Inicia um container.
+		run — Cria e inicia um novo container.
+		ls — Lista os containers que estão em execução. O comando docker ps pode ser usado no lugar desse
+		inspect — Apresenta informações sobre o container.
+		logs — Imprime os logs.
+		stop — Finaliza a execução do container.
+		kill — Força a finalização da execução do container.
+		rm — Deleta um container que está em uso.
+		
+		parametros:
+		-p (Usado para especificar a porta que será escutada pela aplicação)
+		-e (Usado para setar variaveis de ambiente)
+		--net (Usado para especificar uma rede para o container)
+		--name (Usado para especificar o nome do container)
+		
+Images
+Use:
+	docker image [one_command]
+		
+		Command
+		build — monta uma imagem.
+		push — Adiciona uma imagem ao repositório remoto.
+		ls — Lista todas as imagens presentes no diretório.
+		history — Apresenta as informações intermediarias da imagem.
+		inspect — Apresenta varias informações sobre uma imagem, inclusive suas camadas
+		rm — Deleta uma imagem.
+		

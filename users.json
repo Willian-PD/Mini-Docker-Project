@@ -1,0 +1,7 @@
+{
+	"_id": ObjectID("5dsd70ce48306e0c69ca8b8a"),
+	"user": 1,
+	"email": "willian.domingues@example.com",
+	"interests": "coding, devops, infrastructure, gaming",
+	"name": "Willian Domingues"
+}
